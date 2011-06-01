@@ -44,3 +44,14 @@ Hornby, G. S. (2006) "ALPS: The Age-Layered Population Structure for
 Reducing the Problem of Premature Convergence", Proc. of the Genetic
 and Evolutionary Computation Conference, ACM Press.
 
+
+
+
+The source code for building the library is in:
+  ./alps_src
+This should compile with 'make'.  To copy the libraries into a
+local directory, execute 'make instlocal'.  You may need to create
+the directories:  ./lib  and  ./include
+
+There is one example program, ./alps_examples/evo_real
+This should compile by executing 'make' in that directory.

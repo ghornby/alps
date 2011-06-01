@@ -1,0 +1,77 @@
+# ignore these generated files and directories
+lib/*
+include/*
+
+# Ignore the Libraries.
+*.a
+
+# Ignore object files:
+*.o
+
+
+
+# Ignore PS and PDF and doc and ppt.
+*.ps
+*.pdf
+*.doc
+*.ppt
+
+
+# Ignore the QT generated files.
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*/desktop.app/*
+
+
+# Qt generated Makefiles
+misc_examples/*/Makefile
+qt_examples/*/Makefile
+
+
+
+# Ignore archived files:
+*.tar
+*.gz
+*.zip
+*.123
+
+
+
+# Ignore log files:
+*.log
+
+
+# Emacs temporary files:
+*~
+#*#
+
+
+# Ignore image files
+*.eps
+*.png
+*.jpg
+*.jpeg
+*.JPG
+*.gif
+*.bmp
+*.ai
+*.ppm
+
+
+# Ignore animation files
+*.mov
+*.wmv
+*.avi
+*.mpg
+
+
+# Ignore misc backup files:
+*.bak
+*.tmp
+
+
+# Ignore data files:
+*.dat
+*.ind
+*.pop
