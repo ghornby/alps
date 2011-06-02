@@ -25,8 +25,8 @@
 using namespace alps_random;
 
 
-#include "alps_util.h"
-using namespace alps_util;
+#include "alps_utils.h"
+using namespace alps_utils;
 
 
 #include "alps.h"
