@@ -1,5 +1,5 @@
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = alps_src alps_examples support
+SUBDIRS = src examples support
 ACLOCAL_AMFLAGS = -I support/m4
 
 # include support/aminclude.am
