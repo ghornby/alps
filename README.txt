@@ -51,15 +51,17 @@ will install the following files:
 |-- bin
 |   `-- alps-config
 |-- include
-|   |-- alps.h
-|   |-- alps_gen.h
-|   |-- alps_history.h
-|   |-- alps_individ.h
-|   |-- alps_individ_real.h
-|   |-- alps_layer.h
-|   |-- alps_random_mt.h
-|   |-- alps_sstate.h
-|   `-- alps_utils.h
+|   `-- alps
+|       |-- alps.h
+|       |-- gen.h
+|       |-- history.h
+|       |-- individ.h
+|       |-- individ_bits.h
+|       |-- individ_real.h
+|       |-- layer.h
+|       |-- random_mt.h
+|       |-- sstate.h
+|       `-- utils.h
 `-- lib
     |-- libalps-1.1.2.dylib
     |-- libalps.a
@@ -68,9 +70,8 @@ will install the following files:
     `-- pkgconfig
         `-- alps.pc
 
-
 To install the libraries to directory other than '/usr/local', execute
 './configure --prefix=$DIR && make && make install'.
 
-There are two example programs 'alps_examples/evo_real and
-'alps_examples/evo_real_barebones'.
+There are two example programs 'examples/evo_real' and
+'examples/evo_real_barebones'.
