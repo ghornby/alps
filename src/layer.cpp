@@ -21,11 +21,11 @@
 
 ********************************************************/
 
-#include "alps_utils.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
-#include "alps_layer.h"
-#include "alps_gen.h"
+#include "alps/layer.h"
+#include "alps/gen.h"
 
 #include <vector>
 #include <cmath>

@@ -28,13 +28,13 @@
 using namespace std;
 
 
-#include "alps_utils.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
-#include "alps_random_mt.h"
+#include "alps/random_mt.h"
 using namespace alps_random;
 
-#include "alps_individ_bits.h"
+#include "alps/individ_bits.h"
 
 
 namespace alps {

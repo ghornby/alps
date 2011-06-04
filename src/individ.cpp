@@ -22,10 +22,10 @@
 ********************************************************/
 
 
-#include "alps_utils.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
-#include "alps_individ.h"
+#include "alps/individ.h"
 
 
 #include <cmath>

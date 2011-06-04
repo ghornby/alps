@@ -31,17 +31,17 @@
 using namespace std;
 
 
-#include "alps_random_mt.h"
+#include "alps/random_mt.h"
 using namespace alps_random;
 
-#include "alps_utils.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
-#include "alps.h"
-#include "alps_gen.h"
-#include "alps_individ.h"
-#include "alps_layer.h"
-#include "alps_history.h"
+#include "alps/alps.h"
+#include "alps/gen.h"
+#include "alps/individ.h"
+#include "alps/layer.h"
+#include "alps/history.h"
 
 namespace alps {
 

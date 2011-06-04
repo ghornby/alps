@@ -21,8 +21,8 @@
 
 ************************************************************/
 
-#include "alps_utils.h"
-#include "alps_random_mt.h"
+#include "alps/utils.h"
+#include "alps/random_mt.h"
 
 #include <cmath>
 #include <iostream>

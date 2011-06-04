@@ -1,6 +1,6 @@
 # ignore these generated files and directories
 lib/*
-include/*
+#include/*
 
 # Ignore the Libraries.
 *.a
@@ -45,7 +45,8 @@ qt_examples/*/Makefile
 
 # Emacs temporary files:
 *~
-#*#
+\#*#
+.\#*
 
 
 # Ignore image files

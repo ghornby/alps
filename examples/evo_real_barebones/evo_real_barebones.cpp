@@ -13,10 +13,10 @@
   Copyright (C) [2009] [Gregory S. Hornby]
 ********************************************************/
 
-#include "alps.h"
-#include "alps_gen.h"
-#include "alps_layer.h"
-#include "alps_individ_real.h"
+#include "alps/alps.h"
+#include "alps/gen.h"
+#include "alps/layer.h"
+#include "alps/individ_real.h"
 using namespace alps;
 
 #include <cmath>

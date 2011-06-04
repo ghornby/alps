@@ -29,15 +29,15 @@
 using namespace std;
 
 
-#include "alps_random_mt.h"
+#include "alps/random_mt.h"
 using namespace alps_random;
 
-#include "alps_utils.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
 
 
-#include "alps_individ_real.h"
+#include "alps/individ_real.h"
 
 
 

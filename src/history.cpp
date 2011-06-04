@@ -21,8 +21,8 @@
 
 ********************************************************/
 
-#include "alps_history.h"
-#include "alps_utils.h"
+#include "alps/history.h"
+#include "alps/utils.h"
 using namespace alps_utils;
 
 #include <iostream>

@@ -1,10 +1,10 @@
 #AM_CPPFLAGS = -O3 -Wall -finline-functions -fforce-addr -fomit-frame-pointer -fexpensive-optimizations -funroll-loops -frerun-cse-after-loop -frerun-loop-opt -falign-functions=4 
-AM_CPPFLAGS =-Wall -Wextra -ansi -pedantic -I../include/alps
+AM_CPPFLAGS =-Wall -Wextra -ansi -pedantic -I../include
 
 lib_LTLIBRARIES = libalps.la
 
 # The alps_individ_bits class not included; it breaks the build.
-libalps_la_SOURCES = alps.cpp alps_gen.cpp alps_history.cpp alps_individ.cpp alps_individ_real.cpp alps_layer.cpp alps_random_mt.cpp alps_sstate.cpp alps_utils.cpp
+libalps_la_SOURCES = alps.cpp gen.cpp history.cpp individ.cpp individ_real.cpp layer.cpp random_mt.cpp sstate.cpp utils.cpp
 
 # There are two library versioning systems.  One aligns with the
 # release number.  The other is the version-info which has a trickier
