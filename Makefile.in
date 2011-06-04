@@ -247,7 +247,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src examples support
+SUBDIRS = src examples support include/alps
 ACLOCAL_AMFLAGS = -I support/m4
 
 # include support/aminclude.am

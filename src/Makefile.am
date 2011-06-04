@@ -1,5 +1,5 @@
 #AM_CPPFLAGS = -O3 -Wall -finline-functions -fforce-addr -fomit-frame-pointer -fexpensive-optimizations -funroll-loops -frerun-cse-after-loop -frerun-loop-opt -falign-functions=4 
-AM_CPPFLAGS =-Wall -Wextra -ansi -pedantic
+AM_CPPFLAGS =-Wall -Wextra -ansi -pedantic -I../include/alps
 
 lib_LTLIBRARIES = libalps.la
 
@@ -55,7 +55,5 @@ libalps_la_SOURCES = alps.cpp alps_gen.cpp alps_history.cpp alps_individ.cpp alp
 # other release.
 #libalps_la_LDFLAGS = -version-info 0:0:0
 libalps_la_LDFLAGS = -release $(PACKAGE_VERSION)
-
-include_HEADERS = alps.h alps_gen.h alps_history.h alps_individ.h alps_individ_real.h alps_layer.h alps_random_mt.h alps_sstate.h alps_utils.h 
 
 

@@ -14855,7 +14855,7 @@ done
 # Output.
 ac_config_headers="$ac_config_headers src/config.h"
 
-ac_config_files="$ac_config_files Makefile examples/Makefile examples/evo_real/Makefile examples/evo_real_barebones/Makefile src/Makefile support/Makefile support/alps-config support/alps.pc"
+ac_config_files="$ac_config_files Makefile src/Makefile include/alps/Makefile examples/Makefile examples/evo_real/Makefile examples/evo_real_barebones/Makefile support/Makefile support/alps-config support/alps.pc"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -15926,10 +15926,11 @@ do
     "libtool") CONFIG_COMMANDS="$CONFIG_COMMANDS libtool" ;;
     "src/config.h") CONFIG_HEADERS="$CONFIG_HEADERS src/config.h" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
+    "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
+    "include/alps/Makefile") CONFIG_FILES="$CONFIG_FILES include/alps/Makefile" ;;
     "examples/Makefile") CONFIG_FILES="$CONFIG_FILES examples/Makefile" ;;
     "examples/evo_real/Makefile") CONFIG_FILES="$CONFIG_FILES examples/evo_real/Makefile" ;;
     "examples/evo_real_barebones/Makefile") CONFIG_FILES="$CONFIG_FILES examples/evo_real_barebones/Makefile" ;;
-    "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "support/Makefile") CONFIG_FILES="$CONFIG_FILES support/Makefile" ;;
     "support/alps-config") CONFIG_FILES="$CONFIG_FILES support/alps-config" ;;
     "support/alps.pc") CONFIG_FILES="$CONFIG_FILES support/alps.pc" ;;

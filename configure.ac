@@ -49,10 +49,11 @@ AC_CHECK_FUNCS([floor gettimeofday pow sqrt])
 # Output.
 AM_CONFIG_HEADER([src/config.h])
 AC_CONFIG_FILES([Makefile 
+                 src/Makefile
+                 include/alps/Makefile
                  examples/Makefile
                  examples/evo_real/Makefile
                  examples/evo_real_barebones/Makefile
-                 src/Makefile
                  support/Makefile
                  support/alps-config
                  support/alps.pc])
