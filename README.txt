@@ -44,14 +44,34 @@ Hornby, G. S. (2006) "ALPS: The Age-Layered Population Structure for
 Reducing the Problem of Premature Convergence", Proc. of the Genetic
 and Evolutionary Computation Conference, ACM Press.
 
+The library should compile with './configure && make'.  'make install'
+will install the following files:
 
+/usr/local
+|-- bin
+|   `-- alps-config
+|-- include
+|   `-- alps
+|       |-- alps.h
+|       |-- gen.h
+|       |-- history.h
+|       |-- individ.h
+|       |-- individ_bits.h
+|       |-- individ_real.h
+|       |-- layer.h
+|       |-- random_mt.h
+|       |-- sstate.h
+|       `-- utils.h
+`-- lib
+    |-- libalps-1.1.2.dylib
+    |-- libalps.a
+    |-- libalps.dylib -> libalps-1.1.2.dylib
+    |-- libalps.la
+    `-- pkgconfig
+        `-- alps.pc
 
+To install the libraries to directory other than '/usr/local', execute
+'./configure --prefix=$DIR && make && make install'.
 
-The source code for building the library is in:
-  ./alps_src
-This should compile with 'make'.  To copy the libraries into a
-local directory, execute 'make instlocal'.  You may need to create
-the directories:  ./lib  and  ./include
-
-There is one example program, ./alps_examples/evo_real
-This should compile by executing 'make' in that directory.
+There are two example programs 'examples/evo_real' and
+'examples/evo_real_barebones'.

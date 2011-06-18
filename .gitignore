@@ -1,12 +1,13 @@
 # ignore these generated files and directories
 lib/*
-include/*
+#include/*
 
 # Ignore the Libraries.
 *.a
 
 # Ignore object files:
 *.o
+*.lo
 
 
 
@@ -44,7 +45,8 @@ qt_examples/*/Makefile
 
 # Emacs temporary files:
 *~
-#*#
+\#*#
+.\#*
 
 
 # Ignore image files
@@ -75,3 +77,23 @@ qt_examples/*/Makefile
 *.dat
 *.ind
 *.pop
+
+
+# Ignore the autotools generated files:
+Makefile
+autom4te.cache/*
+config.status
+*/.deps/*
+*/.libs/*
+*/*/.deps/*
+*/*/.libs/*
+libtool
+src/config.h
+*.la
+support/alps-config
+support/alps.pc
+src/stamp-h1
+
+# Ignore generated executables
+examples/evo_real/evo_real
+examples/evo_real_barebones/evo_real_barebones
