@@ -1,6 +1,6 @@
 /*******************************************************
 
-  File: individual.cpp
+  File: alps_individ.cpp
   This is part of a software package which implements the
   Age-Layered Population Structure (ALPS) algorithm.
 
@@ -22,10 +22,10 @@
 ********************************************************/
 
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
-#include "alps/individ.h"
+#include "alps/alps_individ.h"
 
 
 #include <cmath>

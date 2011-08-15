@@ -48,7 +48,7 @@
 
 namespace alps_random {
 
-#include "alps/random_mt.h"
+#include "alps/alps_random_mt.h"
 
 /* Period parameters */  
 #define N 624

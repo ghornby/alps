@@ -30,17 +30,17 @@
 #include <cstdlib>
 
 
-#include "alps/random_mt.h"
+#include "alps/alps_random_mt.h"
 using namespace alps_random;
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
 #include "alps/alps.h"
-#include "alps/sstate.h"
-#include "alps/layer.h"
-#include "alps/individ.h"
-#include "alps/history.h"
+#include "alps/alps_sstate.h"
+#include "alps/alps_layer.h"
+#include "alps/alps_individ.h"
+#include "alps/alps_history.h"
 
 using namespace std;
 

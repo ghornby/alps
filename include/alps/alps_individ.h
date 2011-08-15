@@ -8,7 +8,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "alps/history.h"
+#include "alps/alps_history.h"
 
 const double Worst_Fitness = 1.5E+15;
 const int NUM_HISTORY_OPS = 15;

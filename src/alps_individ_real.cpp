@@ -1,6 +1,6 @@
 /*******************************************************
 
-  File: individ_real.cpp
+  File: alps_individ_real.cpp
   This is part of a software package which implements the
   Age-Layered Population Structure (ALPS) algorithm.
 
@@ -29,15 +29,15 @@
 using namespace std;
 
 
-#include "alps/random_mt.h"
+#include "alps/alps_random_mt.h"
 using namespace alps_random;
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
 
 
-#include "alps/individ_real.h"
+#include "alps/alps_individ_real.h"
 
 
 

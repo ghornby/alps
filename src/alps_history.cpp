@@ -1,6 +1,6 @@
 /*******************************************************
 
-  File: history.cpp
+  File: alps_history.cpp
   This is part of a software package which implements the
   Age-Layered Population Structure (ALPS) algorithm.
 
@@ -21,8 +21,8 @@
 
 ********************************************************/
 
-#include "alps/history.h"
-#include "alps/utils.h"
+#include "alps/alps_history.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
 #include <iostream>

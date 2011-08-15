@@ -14,9 +14,9 @@
 ********************************************************/
 
 #include "alps/alps.h"
-#include "alps/gen.h"
-#include "alps/layer.h"
-#include "alps/individ_real.h"
+#include "alps/alps_gen.h"
+#include "alps/alps_layer.h"
+#include "alps/alps_individ_real.h"
 using namespace alps;
 
 #include <cmath>

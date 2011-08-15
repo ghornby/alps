@@ -1,6 +1,6 @@
 /*******************************************************
 
-  File: individ_bits.cpp
+  File: alps_individ_bits.cpp
   This is part of a software package which implements the
   Age-Layered Population Structure (ALPS) algorithm.
 
@@ -28,13 +28,13 @@
 using namespace std;
 
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
-#include "alps/random_mt.h"
+#include "alps/alps_random_mt.h"
 using namespace alps_random;
 
-#include "alps/individ_bits.h"
+#include "alps/alps_individ_bits.h"
 
 
 namespace alps {

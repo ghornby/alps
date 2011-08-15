@@ -21,12 +21,12 @@
 
 ********************************************************/
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
 #include "alps/alps.h"
-#include "alps/layer.h"
-#include "alps/individ.h"
+#include "alps/alps_layer.h"
+#include "alps/alps_individ.h"
 
 #include <stdexcept>
 #include <string>

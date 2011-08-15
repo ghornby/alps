@@ -21,19 +21,19 @@
 
 ********************************************************/
 
-#include "alps/random_mt.h"
+#include "alps/alps_random_mt.h"
 using namespace alps_random;
 
 
-#include "alps/utils.h"
+#include "alps/alps_utils.h"
 using namespace alps_utils;
 
 
 #include "alps/alps.h"
-#include "alps/gen.h"
-#include "alps/sstate.h"
-#include "alps/layer.h"
-#include "alps/individ_real.h"
+#include "alps/alps_gen.h"
+#include "alps/alps_sstate.h"
+#include "alps/alps_layer.h"
+#include "alps/alps_individ_real.h"
 using namespace alps;
 
 

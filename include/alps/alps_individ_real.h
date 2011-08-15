@@ -8,7 +8,7 @@
 
 #include <vector>
 
-#include "alps/individ.h"
+#include "alps/alps_individ.h"
 
 
 namespace alps {
