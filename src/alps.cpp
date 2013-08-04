@@ -372,7 +372,7 @@ int Alps :: calc_max_age_in_layer(int aging_scheme, int age_gap, int layer)
 
     int num1 = age_gap;
     int num2 = age_gap;
-    while (num2 <= 2) {
+    while (num2 < 2) {
       int num3 = num2;
       num2 += num1;
       num1 = num3;
